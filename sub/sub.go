@@ -1,7 +1,8 @@
+// import/exportの練習
 package sub // これで importするパッケージ名を指定できる
 
 import "fmt"
 
 func Hello() {
-    fmt.Println("hello, this is sub!")
+	fmt.Println("hello, this is sub!")
 }
